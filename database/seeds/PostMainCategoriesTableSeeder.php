@@ -12,8 +12,8 @@ class PostMainCategoriesTableSeeder extends Seeder
     public function run()
     {
         DB::table('post_main_categories')->insert([
-            ['main_category' => 'お知らせ'],
-            ['main_category' => '質問'],
+            ['main_category' => '運営からのお知らせ'],
+            ['main_category' => '大型犬'],
         ]);
 
     }

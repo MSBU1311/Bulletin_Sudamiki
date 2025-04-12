@@ -13,7 +13,7 @@ class PostSubCategoriesTableSeeder extends Seeder
     {
         DB::table('post_sub_categories')->insert([
             ['post_main_category_id' => 1,'sub_category' => '運用ルール'],
-            ['post_main_category_id' => 2,'sub_category' => 'デバイス'],
+            ['post_main_category_id' => 2,'sub_category' => 'ドッグラン'],
         ]);
 
     }
